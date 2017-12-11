@@ -1,1 +1,58 @@
-When would you want to create a remote repository rather than keeping all your work local?
+When would you want to create a remote repository rather than keeping all your
+work local?
+
+    If you are working on a project using both home and personal computers, or
+    working on a joint project with other people and want to have working
+    versions available for access online. Making it easy to contribute to or
+    download from any given location that you have access to with a computer.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    This way you can work on experimenting or changing files, but keep the
+    working bug free files online. Updating when a logical step has been added
+    sort of like a bigger version of a commit for git.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    A fork is a copy of a repository. Forking a repository allows you to freely
+    experiment with changes without affecting the original project. Cloning a
+    repository means that you create a local copy provided by the developer. And
+    a branch braches off the master branch pointing to the commit you branched
+    off of, it moves forward perpendicular to the master branch until further
+    decisions are made on what to do with it.
+
+    One would want to use a fork when you don't have permission to make changes
+    to a repository but can't modify the original but want to make the changes
+    you made to the public. You would want to clone when you want to work on a
+    repository from github locally. Lastly, a branch is used to add new changes
+    locally to the repository your working. A branch points to the commit you
+    created it off of as a way to keep another version of the project running
+    along side the master branch.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    The benefit is that you will have an updated version stored locally on your
+    personal computer, then you can work on the project for awhile without
+    connecting to the internet.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Use a system such as dropbox. The only thing that would be easier is it
+    might take less time to update drop box since there is only one step, which
+    is updating the folder. It would be alot harder compared to github though
+    due to the lack of features that point out each others changes, and might
+    even cause you to download a bug by accident in your local files.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    One would want to use seperate branches in group collaborations, creating
+    a checks and balances system that holds everyone accountable. This allows
+    others to work on eachothers code before moving forward with the master
+    branch. The benefit of working directly with the master branch is if
+    you are working on a solo project you can move much more quickly since you
+    are the one checking all of your changes.
