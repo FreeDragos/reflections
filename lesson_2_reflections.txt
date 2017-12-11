@@ -17,13 +17,37 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    By using git diff --staged. This will compare the staging area to commit 1
+    and show the differneces between files, alowing someone to see if making a
+    commit would be enough for a logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    When you want to experiment with new ideas on the side, you can create a
+    branch that you can work on the experiment idea while maintianing the main
+    master branch as you continue with your project.
+
 How do the diagrams help you visualize the branch structure?
+
+    By showing you the lay out of the branch structure from a graph point of
+    view, instead of the normal linear single branch structure that the git log
+    shows.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    It merges the two branches together to make one branch again, keeping all
+    the commits from each branch, ordering them by timestamps. We represent it
+    in the diagram to gives us a better visualization for understanding what
+    we are doing from a graph point of view. Which can be easier to comprehend
+    sometimes compared to viewing the branches in the bash shell.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    Pros of doing the merging manually is that it gives you a chance to run
+    through and make the correct decision when git might make the wrong
+    descision. The cons of manual merging is that alot of times git could make
+    the right descision anyways so it takes extra time for the user to do it
+    themselves. And vice versa for automatic merging.
